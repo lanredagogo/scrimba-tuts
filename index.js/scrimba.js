@@ -72,8 +72,80 @@ function save() {
 save()
 
 
+// Exercise on renedering an error message
+
+let errorEl = document.getElementById("error")
+
+function errors() {
+    let errorMessage = "Something went wrong, please try again"
+    errorEl.innerText = errorMessage
+}
 
 
+
+/*
+// Building a black jack game 
+let firstCard = 10
+let secondCard = 11
+let sum = firstCard + secondCard
+let hasBlackJack = false
+let isAlive = true
+if (sum <= 20) {
+    console.log("Do you want to draw a new card? 🙂")
+    isAlive = false
+} else if (sum === 21){
+    console.log("Wohoo! You've got Blackjack! 🥳")
+    hasBlackJack = true
+} else {
+    console.log("You're out of the game! 😭")
+}*/
+
+
+// Calculator Challenge
+
+
+let num1 = 8
+let num2 = 2
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
+let sumTotal = document.getElementById("sum-el")
+
+
+// Create four functions: add(), subtract(), divide(), multiply()
+function add(){
+    count = num1 + num2
+    sumTotal.innerText += " " + count
+}
+function subtract() {
+    count = num1 - num2
+    sumTotal.innerText += " " + count
+}
+function divide() {
+    count = num1 / num2
+    sumTotal.innerText += " " + count
+}
+function multiply() {
+    count = num1 * num2
+    sumTotal.innerText += " " + count
+}
+
+// Call the correct function when the user clicks on one of the buttons
+// Perform the given calculation using num1 and num2
+// Render the result of the calculation in the paragraph with id="sum-el"
+
+// E.g. if the user clicks on the "Plus" button, you should render
+// "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
+
+
+
+/*let age = 100 
+if (age < 100) {
+    console.log("Not elegible")
+} else if (age === 100) {
+    console.log("Here is your birthday card from the King!")
+} else {
+    console.log("Not elegible, you have already gotten one")
+}*/
 
 
 // strings 
@@ -109,6 +181,9 @@ function welcome() {
 }
 
 welcome()*/
+
+
+
 
 
 

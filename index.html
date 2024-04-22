@@ -9,13 +9,38 @@
   <body>
     <div class="container">
       <!--  <p id="welcome-el"></p>-->
+
+      <!--Row counter exercise-->
       <div class="content">
         <h1>Row Counter:</h1>
         <h2 id="count-el">0</h2>
         <button id="increment-btn" onclick="increment()">INCREMENT</button>
         <button id="save-btn" onclick="save()">Save</button>
-        <p id="save-el">Previous Entries:</p>
+        <p id="save-el" class="results">Previous Entries:</p>
       </div>
+
+      <!--Exercise on renedering an error message-->
+      <div class="content">
+        <img src="image/nike.jpeg" alt="" />
+        <p class="results">Nike Shoe</p>
+        <button id="purchase-btn" onclick="errors()">Purchase - $149</button>
+        <p id="error" class="results"></p>
+      </div>
+
+      <!--Calculator Challenge-->
+      <div class="content">
+        <span id="num1-el" class="results"></span>
+        <span id="num2-el" class="results"></span>
+        <br />
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="divide()">Divide</button>
+        <button onclick="multiply()">Multiply</button>
+        <br />
+        <span id="sum-el" class="results">Sum: </span>
+      </div>
+
+      <!--building a black jack game-->
     </div>
 
     <script src="index.js/scrimba.js"></script>
