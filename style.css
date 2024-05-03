@@ -86,3 +86,37 @@ button {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+#error {
+    color: rgba(255, 0, 0, 0.646);
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.black-jack {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.black-jack h1 {
+    color: goldenrod;
+}
+
+.black-jack p {
+    margin: 0.4em 0px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.black-jack button {
+    background-color: goldenrod;
+    color: green;
+    border: none;
+    border-radius: 5px;
+}
